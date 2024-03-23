@@ -6,8 +6,7 @@
 </x-clientBar>
 
 <div class="p-4 sm:ml-32">
-   <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-      <div class="flex justify-between items-center mb-4">
+    <div class="flex justify-between items-center mb-4">
       <div class="flex justify-between lg:justify-center items-center gap-4">
           <div class="w-16 h-16 bg-[url('/./assets/img/image.webp')] bg-cover	bg-no-repeat	bg-center	 rounded-full"></div>
         <h1 class="font-bold text-xl md:text-2xl ">Oussama znagui</h1>
@@ -19,6 +18,8 @@
         </div>
       
       </div>
+   <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+      
       <h1 class="font-bold text-gray-700 text-2xl my-4">Freelancer preferés</h1>
    
       <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 mb-4">

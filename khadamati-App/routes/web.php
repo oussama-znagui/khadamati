@@ -26,3 +26,10 @@ Route::get('favorie', function () {
 Route::get('history', function () {
     return view('client.history');
 });
+Route::get('editProfile', function () {
+    return view('client.editProfile');
+});
+
+Route::get('profile', function () {
+    return view('client.generalProfile');
+});

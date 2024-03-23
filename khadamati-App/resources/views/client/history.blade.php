@@ -6,8 +6,7 @@
 </x-clientBar>
 
 <div class="p-4 sm:ml-32">
-   <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-      <div class="flex justify-between items-center mb-4">
+     <div class="flex justify-between items-center mb-4">
       <div class="flex justify-between lg:justify-center items-center gap-4">
           <div class="w-16 h-16 bg-[url('/./assets/img/image.webp')] bg-cover	bg-no-repeat	bg-center	 rounded-full"></div>
         <h1 class="font-bold text-xl md:text-2xl ">Oussama znagui</h1>
@@ -19,53 +18,64 @@
         </div>
       
       </div>
-      <h1 class="font-bold text-gray-700 text-2xl my-4">Freelancer preferés</h1>
+   <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+     
+      <h1 class="font-bold text-gray-700 text-2xl my-4">Historique des jobs</h1>
    
       <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 mb-4">
         
         @for ($i = 0; $i < 6; $i++)
-        <div class="flex items-center  w-full justify-center">
+       <div class="rounded overflow-hidden shadow-lg flex flex-col">
+      <a href="#"></a>
+      <div class="relative"><a href="#">
+          <img class="w-full"
+            src="./assets/img/fuite.jpg"
+            alt="Sunset in the mountains">
+          <div
+            class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+          </div>
+        </a>
+        <a href="#!">
+          <div
+            class="text-xs absolute top-0 right-0 bg-green-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+            résolu
+          </div>
+        </a>
+      </div>
+      <div class="px-6 py-4 mb-auto">
+        <a href="#"
+          class="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Fuite d'eau</a>
+        <p class="text-gray-500 text-sm">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+      <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+        <span href="#" class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+          <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g>
+              <g>
+                <path
+                  d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M277.333,256 c0,11.797-9.536,21.333-21.333,21.333h-85.333c-11.797,0-21.333-9.536-21.333-21.333s9.536-21.333,21.333-21.333h64v-128 c0-11.797,9.536-21.333,21.333-21.333s21.333,9.536,21.333,21.333V256z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          <span class="ml-1">6 mins ago</span>
+        </span>
 
-<div class="max-w-xs">
-    <div class="bg-gradient-to-br from-sky-200 to-sky-300 shadow-xl rounded-lg py-3">
-        <div class="flex justify-between items-center px-4"> 
-            <p class="bg-green-500 text-sm text-white font-bold py-1 px-3 rounded-full">En service</p>
-              <svg class="w-7 h-7 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-    </svg>
-        </div>
-        <div class="photo-wrapper p-2">
-            <img class="w-32 h-32 rounded-full mx-auto" src="https://www.gravatar.com/avatar/2acfb745ecf9d4dccb3364752d17f65f?s=260&d=mp" alt="John Doe">
-        </div>
-        <div class="p-2">
-            <h3 class="text-center text-xl text-gray-900 font-medium leading-8">Joh Doe</h3>
-            <div class="text-center text-gray-400 text-xs font-semibold">
-                <p>Web Developer</p>
-            </div>
-            <table class="text-xs my-3">
-                <tbody><tr>
-                    <td class="px-2 py-2 text-gray-500 font-semibold">Address</td>
-                    <td class="px-2 py-2">Chatakpur-3, Dhangadhi Kailali</td>
-                </tr>
-                <tr>
-                    <td class="px-2 py-2 text-gray-500 font-semibold">Phone</td>
-                    <td class="px-2 py-2">+977 9955221114</td>
-                </tr>
-                <tr>
-                    <td class="px-2 py-2 text-gray-500 font-semibold">Email</td>
-                    <td class="px-2 py-2">john@exmaple.com</td>
-                </tr>
-            </tbody></table>
-
-            <div class="text-center my-3">
-                <a class="text-xs text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium" href="#">View Profile</a>
-            </div>
-
-        </div>
+        <span href="#" class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+          <svg class="h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z">
+            </path>
+          </svg>
+          <span class="ml-1">39 Comments</span>
+        </span>
+      </div>
     </div>
-</div>
 
-</div>
             
         @endfor
       </div>

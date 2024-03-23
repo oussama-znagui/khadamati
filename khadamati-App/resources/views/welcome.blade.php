@@ -38,17 +38,17 @@
               <ul class="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0 astro-UY3JLCBK">
                 <li class="astro-UY3JLCBK">
                   <a href="#" class="block md:px-4 transition hover:text-primary astro-UY3JLCBK">
-                    <span class="astro-UY3JLCBK">Teams</span>
+                    <span class="astro-UY3JLCBK">Accueil</span>
                   </a>
                 </li>
                 <li class="astro-UY3JLCBK">
                   <a href="#" class="block md:px-4 transition hover:text-primary astro-UY3JLCBK">
-                    <span class="astro-UY3JLCBK">Enterprise</span>
+                    <span class="astro-UY3JLCBK">Services</span>
                   </a>
                 </li>
                 <li class="astro-UY3JLCBK">
                   <a href="#" class="block md:px-4 transition hover:text-primary astro-UY3JLCBK">
-                    <span class="astro-UY3JLCBK">Ressources</span>
+                    <span class="astro-UY3JLCBK">Freelancer</span>
                   </a>
                 </li>
                 <li class="astro-UY3JLCBK">
